@@ -73,7 +73,7 @@ const Form = ({ createAppointment }) => {
 					type="text"
 					name="owner"
 					className="u-full-width"
-					placeholder="Owner Name de la Pet"
+					placeholder="Owner Pet Name"
 					onChange={updateState}
 					value={appointment.owner}
 				/>
